@@ -11,7 +11,7 @@ while (1):
         print("Conteúdo QRCode: ")
         print(data)
     else:
-        print("Erro")
+        print("Conteúdo não identificado")
 
     k = cv2.waitKey(30) & 0xff
     if k == 27:
